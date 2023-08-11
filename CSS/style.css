@@ -209,10 +209,11 @@
         bottom:6rem;
     }
     .container4 p{
-        position: absolute;
         color:#ffff;
         top:30rem;
         opacity:0.6;
-        left:43rem;
+        display:flex;
+        justify-content:center;
+        align-items: center;
     }
 /* Footer section ends */

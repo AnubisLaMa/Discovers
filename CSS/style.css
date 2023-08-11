@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    body{
+        background-color:#030303;
+    }
+.container{
+    position: relative;
+    background: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80rem;
+    width: 100%;
+    opacity:0.9;
+    background-position: center;
+}
+
+/*  Holiday section starts */
+    .container2{
+        position: relative;
+        top:1rem;
+    }
+    .container2 .img1{
+        position: absolute;
+        top:-10rem;
+        left:8rem;
+    }
+
+    .container2 .title1{
+        position: absolute;
+        color:#FBD784;
+        left:65rem;
+        top:2rem;
+        font-size:1.2rem;
+    }
+    .container2 .title1::after{
+        content: '';
+        position: absolute;
+        width:6rem;
+        left:-7.7rem;
+        top:0.6rem;
+        height:0.1rem;
+        background-color:#FBD784;
+    }
+    .container2 .txt1{
+        position: absolute;
+        color:#ffff;
+        font-size:3rem;
+        left:57.7rem;
+        top:5rem;
+        font-weight:600;
+    }
+    .container2 .txt2{
+        position: absolute;
+        color:#ffff;
+        font-size:1rem;
+        left:57.7rem;
+        top:18rem;
+    }
+
+    .container2 .txt3{
+        position: absolute;
+        color: #FBD784;
+        top:25.7rem;
+        left:57.7rem;
+    }
+
+    .container2 .img2{
+        position: absolute;
+        top:25.7rem;
+        left:62.3rem;
+    }
+/*  Holiday section ends */

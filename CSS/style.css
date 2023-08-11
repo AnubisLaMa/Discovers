@@ -25,6 +25,9 @@
     .container2{
         position: relative;
         top:1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .container2 .img1{
         position: absolute;
@@ -42,9 +45,11 @@
     .container2 .title1::after{
         content: '';
         position: absolute;
+        display: flex;
+        align-items: center;
         width:6rem;
         left:-7.7rem;
-        top:0.6rem;
+        top:0.8rem;
         height:0.1rem;
         background-color:#FBD784;
     }
@@ -65,15 +70,18 @@
     }
 
     .container2 .txt3{
-        position: absolute;
+        position:relative;
         color: #FBD784;
         top:25.7rem;
-        left:57.7rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        left:10rem;
     }
 
     .container2 .img2{
         position: absolute;
-        top:25.7rem;
+        top:25.8rem;
         left:62.3rem;
     }
 /*  Holiday section ends */
@@ -82,6 +90,9 @@
     .container3{
         position: relative;
         top:55rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .container3 .title2{
         position: absolute;
@@ -96,8 +107,7 @@
     }
     .container3 .btn1{
         position: absolute;
-        left:80rem;
-        top:-1rem;
+         left:80rem;
         padding:1rem;
         border:1px solid #FBD784;
         color:#ffff;
@@ -128,20 +138,25 @@
         left:5rem;
         color:#ffff;
     }
+    .container4 input[type="email"]{
+        border-top:none; 
+        outline: none;
+        width:14.7rem;
+        display: inline-block;
+        position: relative;
+        top:10.8rem;
+        left:5rem;
+        /* margin-top:10.2rem; */
+        background-color: #030303;
+        border-left:none;
+        border-right:none;
+        color:#ffff;
+    }
     .container4 .txt5{
         position: absolute;
         left:5rem;
         color:#ffff;
         top:10rem;
-    }
-    .container4 .divider2{
-        position: absolute;
-        width:15rem;
-        left:4.8rem;
-        top:12rem;
-        opacity:0.2;
-        height:0.1rem;
-        background-color: #ffff;
     }
     .container4 .btn2{
         position: absolute;
@@ -159,8 +174,12 @@
         color: #030303;
     }
     .container4 .menu{
-        position: relative;
-        left:35rem;
+        margin:1rem;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         font-size:1.2rem;
     }
     .container4 .menu .title4{
@@ -170,21 +189,18 @@
         color: #ffff;
         margin-top:1rem;
     }
-    .container4 .menu .title5{
+     .container4 .menu .title5{
         color:#FBD784;
-        position: relative;
-        left:25rem;
-        top:-11rem;
-    }
+        margin-left:5rem;
+    } 
     .container4 .menu .title5 .innermenu2 li{
         color: #ffff;
         margin-top:1rem;
     }
-    .container4 .menu .title6{
+     .container4 .menu .title6{
         color:#FBD784;
-        position: relative;
-        left:45rem;
-        top:-21.7rem;
+        margin-top:-4.6rem;
+        margin-left:6rem;
     }
     .container4 .menu .title6 .innermenu3 li{
         color: #ffff;
@@ -204,16 +220,15 @@
         top:20rem;
     }
     .container4 .icons{
-        position: absolute;
+        position:relative;
         left:75rem;
-        bottom:6rem;
+        top:5rem;
     }
     .container4 p{
         color:#ffff;
-        top:30rem;
+        top:10rem;
         opacity:0.6;
-        display:flex;
-        justify-content:center;
-        align-items: center;
-    }
+        text-align: center;
+        position:relative;
+        }
 /* Footer section ends */

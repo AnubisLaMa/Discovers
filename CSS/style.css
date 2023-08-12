@@ -8,7 +8,7 @@
 }
     body{
         background-color:#030303;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 .container{
     position: relative;
@@ -48,17 +48,17 @@
         display: flex;
         align-items: center;
         width:6rem;
-        left:-7.7rem;
+        left:-6.7rem;
         top:0.8rem;
         height:0.1rem;
         
         background-color:#FBD784;
     }
     .container2 .txt1{
-        position: absolute;
         color:#ffff;
+        position: relative;
+        left:19rem;
         font-size:3rem;
-        left:57.7rem;
         top:5rem;
         font-weight:600;
     }
@@ -73,11 +73,11 @@
     .container2 .txt3{
         position:relative;
         color: #FBD784;
-        top:25.7rem;
+        top:21rem;
         display:flex;
         justify-content: center;
         align-items: center;
-        left:10rem;
+        left:2rem;
     }
 
     .container2 .img2{

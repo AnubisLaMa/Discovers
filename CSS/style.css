@@ -12,7 +12,7 @@
     }
 .container{
     position: relative;
-    background: url(../images/Background.png);
+    background: url(../images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 80rem;
@@ -51,6 +51,7 @@
         left:-7.7rem;
         top:0.8rem;
         height:0.1rem;
+        
         background-color:#FBD784;
     }
     .container2 .txt1{
